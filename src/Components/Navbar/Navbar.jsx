@@ -10,7 +10,7 @@ import {
   faBars,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
-import { useCartContext } from "../Context/CartCOntext";
+import { useCartContext } from "../Context/CartContext";
 
 function Navbar() {
   const [menu, setMenu] = useState(true);
