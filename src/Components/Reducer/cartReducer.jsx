@@ -6,12 +6,12 @@ const cartReducer = (state, action) => {
         let { id, quantity, singleProduct, setQuantity} = action.payload;
 
 
-        let existingProduct = state.cart.find((currItem) => currItem.id == id + singleProduct.name);
+        let existingProduct = state.cart.find((currItem) => currItem.id === id + singleProduct.name);
 
 
         if (existingProduct) {
           let updatedProduct = state.cart.map((currElement) => {
-            if(currElement.id == id + singleProduct.name) {
+            if(currElement.id === id + singleProduct.name) {
               let newQuantity = currElement.quantity + quantity;
 
               if (newQuantity >= currElement.max) {
