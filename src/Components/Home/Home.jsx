@@ -21,7 +21,7 @@ function Home() {
             </NavLink>
           </div>
           <div className="col-2">
-            <img className="bannerImg" src="/Assets/banner.png" alt="" />
+            <img className="bannerImg" src="/Assets/banner.png" alt="banner" />
           </div>
         </div>
 
