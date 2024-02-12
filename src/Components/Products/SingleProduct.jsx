@@ -5,7 +5,7 @@ import "./SingleProduct.css";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
-import { useCartContext } from "../Context/CartCOntext";
+import { useCartContext } from "../Context/CartContext";
 
 const API = "https://api.pujakaitem.com/api/products";
 function SingleProduct() {
