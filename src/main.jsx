@@ -14,7 +14,7 @@ import SingleProduct from "./Components/Products/SingleProduct";
 import { AppProvider } from "./Components/Context/ProductContext";
 import AllProducts from "./Components/Products/AllProducts";
 import { AllProductsContextProvider } from "./Components/Context/AllProductsContext";
-import { CartProvider } from "./Components/Context/CartCOntext";
+import { CartProvider } from "./Components/Context/CartContext";
 import Order from "./Components/Orders/Order";
 
 
